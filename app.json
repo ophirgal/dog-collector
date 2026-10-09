@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dog-collector",
+    "name": "Dog Collector",
     "slug": "dog-collector",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Dog Collector uses your location to show dogs near you."
+        }
+      ]
+    ]
   }
 }
